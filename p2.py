@@ -1,0 +1,22 @@
+import numpy as np
+a = np.array([[1,2,4],[5,8,7]])
+print(a)
+b = np.array((1,2,3))
+print(b)
+c= np.zeros((3,4))
+print(c)
+d = np.full(3,3)
+print(d)
+e = np.random.randint(low = 1, high=100, size=(3,3))
+print(e)
+g= np.arange(0,40,10)
+print(g)
+h = np.linspace(0,2,5)
+print(h)
+arr1= a.T
+print(arr1)
+arr= np.array([[1,2,3,4],[4,4,5,6],[5,6,7,7]])
+print("\n original array :\n",arr)
+newarr=arr.reshape(2,2,3)
+print("reshape",newarr)
+
